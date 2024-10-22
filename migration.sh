@@ -4,7 +4,12 @@
 YELLOW="\033[33m"
 GREEN="\033[32m"
 RESET="\033[0m"
+
 clear
+echo "Starting the process..."
+sleep 5
+echo "Process has started."
+sleep 1
 
 # Step 1: Updating package list
 echo -e "${GREEN}Updating package list...${RESET}"
