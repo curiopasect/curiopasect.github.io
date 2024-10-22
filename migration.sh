@@ -7,7 +7,7 @@ RESET="\033[0m"
 
 clear
 echo "Starting the process..."
-sleep 5
+sleep 3
 echo "Process has started."
 sleep 1
 
