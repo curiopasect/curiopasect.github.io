@@ -24,3 +24,4 @@ x-ui restart
 clear
 
 echo -e "${GREEN}Migration successful.${RESET}"
+echo "Next steps:\n\t- Fetch new v2ray configs from X-UI Panel\n\t- Edit https://github.com/curiopasect/kiwi/edit/main/index.html to include new configs."
