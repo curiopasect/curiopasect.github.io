@@ -21,4 +21,6 @@ echo -e "${GREEN}Installing x-ui-english...${RESET}"
 bash <(curl -Ls https://raw.githubusercontent.com/NidukaAkalanka/x-ui-english/master/install.sh)
 x-ui restart
 
+clear
+
 echo -e "${GREEN}Migration successful.${RESET}"
