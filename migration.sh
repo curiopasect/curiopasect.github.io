@@ -7,17 +7,14 @@ RESET="\033[0m"
 clear
 
 # Step 1: Updating package list
-echo -e "${GREEN}Updating package list and installing Nginx...${RESET}"
+echo -e "${GREEN}Updating package list...${RESET}"
 sudo apt update
 
 # Step 2: Copy directories from Server 1 to Server 2
-directories=("/etc/letsencrypt" "/etc/x-ui-english")
 username="root"
-read -p "Enter the IP address of Server 1: " server_ip
-for dir in "${directories[@]}"; do
-  echo -e "${GREEN}Copying $dir from $username@$server_ip to $dir on Server 2${RESET}"
-  sudo scp -r "$username@$server_ip:$dir/" "$dir"
-done
+read -p "Enter the IP address of the origin server: " server_ip
+echo -e "${GREEN}Retrieving directories from $username@$server_ip...${RESET}"
+sudo scp -r "root@$server_ip:/etc/letsencrypt/" "/etc/letsencrypt" && scp -r "root@$server_ip:/etc/x-ui-english/" "/etc/x-ui-english"
 
 # Step 3: Install x-ui-english on Server 2
 echo -e "${GREEN}Installing x-ui-english...${RESET}"
