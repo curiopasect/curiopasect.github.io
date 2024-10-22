@@ -4,6 +4,8 @@
 GREEN="\033[32m"
 RESET="\033[0m"
 
+clear
+
 # Step 1: Updating package list
 echo -e "${GREEN}Updating package list and installing Nginx...${RESET}"
 sudo apt update
