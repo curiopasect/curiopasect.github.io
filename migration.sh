@@ -9,7 +9,6 @@ clear
 echo "Starting the process..."
 sleep 3
 echo "Process has started."
-sleep 1
 
 # Step 1: Updating package list
 echo -e "${GREEN}Updating package list...${RESET}"
