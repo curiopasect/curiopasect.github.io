@@ -35,4 +35,4 @@ echo -e "\n\n\n\n\n\n\n"
 # Result
 echo -e "${GREEN}Migration attempted and probably succeeded.${RESET}"
 sleep 2
-echo -e "${YELLOW}Next steps:\n\t- Fetch new v2ray configs from this very server's X-UI Panel.\n\t- Add/replace them in https://github.com/curiopasect/kiwi/edit/main/index.html.\n\t- Add/replace them in https://github.com/curiopasect/curiopasect.github.io/edit/main/migration.sh.${RESET}"
+echo -e "${YELLOW}Next steps:\n\t- Fetch new v2ray configs from this very server's X-UI Panel.\n\t- Add/replace them in https://github.com/curiopasect/kiwi/edit/main/index.html.\n\t- Add/replace them in https://github.com/curiopasect/curiopasect.github.io/edit/main/index.html.${RESET}"
