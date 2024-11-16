@@ -22,7 +22,7 @@ username="root"
 read -p "Enter the IP address of the origin server: " server_ip
 echo -e "${GREEN}Retrieving directories from $username@$server_ip...${RESET}"
 sleep 1
-sudo scp -r "root@$server_ip:/etc/letsencrypt/" "/etc/letsencrypt" && scp -r "root@$server_ip:/etc/x-ui-english/" "/etc/x-ui-english"
+sudo scp -r "root@$server_ip:/etc/x-ui-english/" "/etc/x-ui-english"
 sleep 2.5
 echo -e "\n\n\n\n\n\n\n"
 
