@@ -1,18 +1,6 @@
 {
-  "keys": [
-    {
-      "id": 1,
-      "name": "Primary Key",
-      "hostname": "outl1.curiopasect.lol",
-      "password": "Y3c2gxa9mg",
-      "port": 10093
-    },
-    {
-      "id": 2,
-      "name": "Secondary Key",
-      "hostname": "outl2.curiopasect.lol",
-      "password": "T5k8j0vLn9",
-      "port": 10094
-    }
-  ]
+  "server": "outline-server.example.com",
+  "server_port": 17178,
+  "password": "5REfxTjltz2L",
+  "method": "chacha20-ietf-poly1305"
 }
