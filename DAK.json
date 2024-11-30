@@ -6,7 +6,7 @@
       "password": "Y3c2gxa9mg",
       "port": 10093,
       "remarks": "👚 صورتی",
-      "proxy-protocol": "shadowsocks",
+      "proxy-protocol": "shadowsocks"
     },
     {
       "address": "outl2.curiopasect.lol",
