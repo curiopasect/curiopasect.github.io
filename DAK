@@ -1,0 +1,49 @@
+{
+{
+    "outbounds": [
+        {
+            "mux": {
+            },
+            "protocol": "shadowsocks",
+            "sendThrough": "0.0.0.0",
+            "settings": {
+                "servers": [
+                    {
+                        "address": "outl2.curiopasect.lol",
+                        "method": "aes-256-gcm",
+                        "password": "Y3c2gxa9mg",
+                        "port": 10093
+                    }
+                ]
+            },
+            "streamSettings": {
+            },
+            "tag": "PROXY"
+        }
+    ]
+}
+,
+{
+    "outbounds": [
+        {
+            "mux": {
+            },
+            "protocol": "shadowsocks",
+            "sendThrough": "0.0.0.0",
+            "settings": {
+                "servers": [
+                    {
+                        "address": "outl1.curiopasect.lol",
+                        "method": "aes-256-gcm",
+                        "password": "Y3c2gxa9mg",
+                        "port": 10093
+                    }
+                ]
+            },
+            "streamSettings": {
+            },
+            "tag": "PROXY"
+        }
+    ]
+}
+}
